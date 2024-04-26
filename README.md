@@ -19,5 +19,23 @@
 - Branch : São ramificações para criar ramos de desenvolvimento, tipo versões. Nessas ramificações podemos criar diferentes recursos que depois serão mesclados.
 
 
+## Comandos do git
+### git commit
+
+- O commit registra alterações em um ou mais arquivos  na sua branch
+
+git commit  -m "meu primeiro comit com o git" 
+
+### git status 
+
+- Exibe as condições do diretório de trabalho e da área de stanging
+- o que é stanging? é onde adicionamento os arquivos para a árvore do git.
+- O git status nos permite ver quais alterações foram despreparadas , quais não foram e quais arquivos estão sendo monitorados(tracked) pelos git.
+
+### git push
+
+- Permite que enviemos os commits da nossa banch e repositório git local para o repositório remoto.
+- obs.: Antes de fazer o push , temos que verificar se todas as alterações no repositório local foram feitas.
+
 
 
