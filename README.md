@@ -56,3 +56,7 @@ git commit  -m "meu primeiro comit com o git"
 
 ### Como criar uma branch?
 - git -b "nome da branch"
+
+
+### O que é pull request?
+- Uma pull request é uma proposta para mesclar as alterações de um branch em outro. Em uma pull request, os colaboradores podem revisar e discutir o conjunto de alterações proposto antes de integrá-las à base de código principal.
