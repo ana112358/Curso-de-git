@@ -54,3 +54,5 @@ git commit  -m "meu primeiro comit com o git"
 ### Como trocar de branch
 - git checkout <nome_destino>
 
+### Como criar uma branch?
+- git -b "nome da branch"
