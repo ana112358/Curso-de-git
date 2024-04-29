@@ -44,5 +44,13 @@ git commit  -m "meu primeiro comit com o git"
 
 ### Comandos para trabalhar com branch
 
-#### Cruar uma branch
+#### Criar uma branch
 - git branch <nome_branch>
+
+
+### Saber quais branchs existem
+- git branch
+
+### Como trocar de branch
+- git checkout <nome_destino>
+
