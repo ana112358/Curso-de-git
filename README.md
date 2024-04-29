@@ -37,5 +37,12 @@ git commit  -m "meu primeiro comit com o git"
 - Permite que enviemos os commits da nossa banch e repositório git local para o repositório remoto.
 - obs.: Antes de fazer o push , temos que verificar se todas as alterações no repositório local foram feitas.
 
+## Trabalhando com branch
 
+### O que é uma branch?
+- São ramificações , em que podemos criar vários recursos e depois mescla-los.
 
+### Comandos para trabalhar com branch
+
+#### Cruar uma branch
+- git branch <nome_branch>
