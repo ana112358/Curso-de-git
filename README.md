@@ -2,9 +2,20 @@
 
 - Repositório para aprender a utilizar o git e o GitHub. Curso da Udemy com o professor Jamilton Damasceno . 
 
-## O que é controle de versão?
+## O que é controle de versão/fonte?
 
-- É uma técnica que nos permite salvar diferentes partes do código
+- É uma prática de rastrear e gerenciar as auterações em um código de um software. Os sistemas de controle de versão são ferramentas que permitem rastrear as auterações no código ao longo do tempo e por desenvolvedores diferentes.
+- Com a evolução de softwares que se tornam cada vez mais complexos, os sistemas de versionamento permite que desenvolvedores de diferentes locais, possam acessar e modificar os códigos de um mesmo projeto.
+- Além disso, se você tem um projeto grande, tipo o Facebook, que tem inúmeras funcionalidades, podemos criar ramos para desenvolver alguma ideia que temos, como a criação de um chat para o facebook, evitando interrupções de outros desenvolvedores que estão implementando outras funcionalidades e de corromper todo o projeto por erros na criação do chat, por exemplo.
+
+## Tipos de controle de versão
+### Centralizado
+- É um modelo baseado em cliente-servidor, ou seja, as máquinas da equipe do projeto precisam estar conectadas a um servidor central que contém o sistema de controle de versão com os arquivos versionados do projeto
+-  ![centralizado](https://github.com/ana112358/Curso-de-git/assets/130050929/2648a775-6381-4afe-8654-720a35319ac4)
+
+###  Descentralizado/distribuído
+-
+
 
 ## O que é GIT ?
 
