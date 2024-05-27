@@ -62,14 +62,14 @@ git commit  -m "Aqui vc coloca a mensagem falando o que foi auterado"
 
 - Exibe as condições do diretório de trabalho e da área de stanging
 - o que é stanging? é onde adicionamento os arquivos para a árvore do git.
-- O git status nos permite ver quais alterações foram despreparadas , quais não foram e quais arquivos estão sendo monitorados(tracked) pelos git.
+- O git status nos permite ver quais alterações foram despreparadas , quais não foram e quais arquivos estão sendo monitorados(tracked) pelo git.
 
 ### git push
 
 - Permite que enviemos os commits da nossa banch e repositório git local para o repositório remoto.
 - obs.: Antes de fazer o push , temos que verificar se todas as alterações no repositório local foram feitas.
 
-#### O que é o GIthub?
+#### O que é o Github?
 - O GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores e usuários cadastrados contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo. O GitHub é utilizado para gerir projetos, permitindo a colaboração entre uma grande comunidade de desenvolvedores
 
 ###### Configurando chave SSH
@@ -96,10 +96,10 @@ git commit  -m "Aqui vc coloca a mensagem falando o que foi auterado"
 - Com o git push (empurrar) você consegue subir alterações do seu computador para o Github.
 
 ## Baixando alterações com Git pull
+- Com o git pull(puxar) você consgue baixar alterações que podem ter acontecido no projeto, para que você trabalhe com o projeto atualizado.
+
 
 ## Trabalhando com branch
-
-
 
 ### O que é uma branch?
 - São ramificações , em que podemos criar vários recursos e depois mescla-los.
