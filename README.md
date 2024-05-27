@@ -19,23 +19,44 @@
 
 ## O que é GIT ?
 
-- É uma ferramenta que trabalha com controle de versão.
+- É uma ferramenta que trabalha com controle de versão e é a mais utilizada no mundo atualmente.
+- Desenpenho: Operações otimizadas para ter alto desempenho . PQQQQ?
+- Segurança: Todos os objetos do git são protegidos com criptografia.
+- Código Aberto: É um projeto de Código aberto. PQQQ isso é uma vantagem?. Porque pode ser utilizado pelas empresas como um recurso sem depende de nada externo.
+
+## Git e Github são a mesma coisa?
+- Não, Github e similares como GitLab e Bitbucket, são provedores que utilizam o git, fornecendo uma interface visual, além de armazenamento na nuvem para os projetos.
 
 ## Como Trabalhar com o git?
 
+
 ### Vamos entender alguns conceitos 
 
-- Repositório : É onde o código será armazenado
+- Repositório : É onde o código será armazenado, geralmente é associado a um projeto.
+O github e o bitbucket oferecem armazenamento na nuvem.
+Dentro do gitHub podemos ter repositórios abertos, onde outras pessoas podem visualizar, como recrutadores e também tem repositórios priivados.
 
 - Branch : São ramificações para criar ramos de desenvolvimento, tipo versões. Nessas ramificações podemos criar diferentes recursos que depois serão mesclados.
+![Captura de tela 2024-05-27 123350](https://github.com/ana112358/Curso-de-git/assets/130050929/b3966cc6-ea3d-4512-94be-7b7e014f7c64)
+![Captura de tela 2024-05-27 123630](https://github.com/ana112358/Curso-de-git/assets/130050929/2eb608f8-a923-4ca5-8f1f-d1f63471febe)
 
+## Criando meu primeiro Repositório Git
+- Abrir o Git bash e ir até dentro da pasta onde está o projeto
+- digitar o comando git init para inicializar o git no local dentro da pasta.
 
 ## Comandos do git
 ### git commit
 
-- O commit registra alterações em um ou mais arquivos  na sua branch
+- O commit registra alterações em um ou mais arquivos  na sua branch.
 
-git commit  -m "meu primeiro comit com o git" 
+git commit  -m "Aqui vc coloca a mensagem falando o que foi auterado" 
+- Quando fazemos o commit, criamos uma nova versão do código e caso queiramos voltar atrás das modificações é possível, pois o o arquivo está sendo rastreado pelo git.
+
+- Nunca esqueça de commitarrrrrr!!!
+
+### git add
+
+- O git add adiciona uma mudança qualquer, seja ela auterar ou remover um conteúdo de um arquivo local , que terá a sua mudança confirmada através do commit.
 
 ### git status 
 
@@ -48,16 +69,44 @@ git commit  -m "meu primeiro comit com o git"
 - Permite que enviemos os commits da nossa banch e repositório git local para o repositório remoto.
 - obs.: Antes de fazer o push , temos que verificar se todas as alterações no repositório local foram feitas.
 
+#### O que é o GIthub?
+- O GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores e usuários cadastrados contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo. O GitHub é utilizado para gerir projetos, permitindo a colaboração entre uma grande comunidade de desenvolvedores
+
+###### Configurando chave SSH
+- O secure Shell Protocoll é um protocolo de rede criptográfica para operar serviços de rede com segurança em uma rede não segura.
+
+- 1. abra o gitbaash
+  2. ....
+  3. ....
+  4. ....
+ 
+
+
+## Clonando projetos com o git
+
+### Qual a diferença entre subir um projeto e clonar um projeto
+#### Clonar o projeto ou parte do projeto
+- Esse é o processo que geralmente se faz quando se chega em uma empresa , clonamos parte do projeto ou o projeto inteiro para se trabalhar nele.
+### Comando 
+- git clone <link da chave ssh>
+
+#### Subir um projeto 
+- Quando criamos o projeto no repositório local/no computador e subimos para o gitHub
+### Comando
+- Com o git push (empurrar) você consegue subir alterações do seu computador para o Github.
+
+## Baixando alterações com Git pull
+
 ## Trabalhando com branch
+
+
 
 ### O que é uma branch?
 - São ramificações , em que podemos criar vários recursos e depois mescla-los.
-
 ### Comandos para trabalhar com branch
 
 #### Criar uma branch
 - git branch <nome_branch>
-
 
 ### Saber quais branchs existem
 - git branch
