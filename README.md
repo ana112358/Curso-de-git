@@ -97,12 +97,19 @@ git commit  -m "Aqui vc coloca a mensagem falando o que foi auterado"
 
 ## Baixando alterações com Git pull
 - Com o git pull(puxar) você consgue baixar alterações que podem ter acontecido no projeto, para que você trabalhe com o projeto atualizado.
+- Este comando incorpora as alterações de um repositório remoto para o repositório local.
 
+
+## Sincronizar projeto com o GitHub 
+.........
 
 ## Trabalhando com branch
 
 ### O que é uma branch?
 - São ramificações , em que podemos criar vários recursos e depois mescla-los.
+- É uma boa prática criar funcionalidades diferentes em novas brunchs.
+
+
 ### Comandos para trabalhar com branch
 
 #### Criar uma branch
@@ -113,10 +120,12 @@ git commit  -m "Aqui vc coloca a mensagem falando o que foi auterado"
 
 ### Como trocar de branch
 - git checkout <nome_destino>
+- Comando para alternar a branch que está sendo trabalhada.
 
 ### Como criar uma branch?
-- git -b "nome da branch"
+- git checkout -b "nome da branch"
 
+obs.: Quando se entra em uma empresa, geralmente já existe um repositório. Temos que fazer o git clone para criar um repositório local e vocÊ fazer as alterações, que quando for aprovada, será feito o merge para colocar essas auterações na branch main.
 
 ### O que é pull request?
 - Uma pull request é uma proposta para mesclar as alterações de um branch em outro. Em uma pull request, os colaboradores podem revisar e discutir o conjunto de alterações proposto antes de integrá-las à base de código principal.
