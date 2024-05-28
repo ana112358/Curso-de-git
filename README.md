@@ -130,5 +130,8 @@ obs.: Quando se entra em uma empresa, geralmente já existe um repositório. Tem
 ### O que é pull request(requisição de pull)?
 - Uma pull request é uma proposta para mesclar as alterações de um branch em outro. Em uma pull request, os colaboradores podem revisar e discutir o conjunto de alterações proposto antes de integrá-las à base de código principal.
 
+- É a partir da Branch main que fazemos o Pull Request
+- 
+
 ### Code Review (Revisão de Código)
 - É um processo essencial no desenvolvimento de software, onde um ou mais colegas de equipe revisam o código-fonte escrito por outro desenvolvedor que mandou o pull request.
