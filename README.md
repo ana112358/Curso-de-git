@@ -127,5 +127,8 @@ git commit  -m "Aqui vc coloca a mensagem falando o que foi auterado"
 
 obs.: Quando se entra em uma empresa, geralmente já existe um repositório. Temos que fazer o git clone para criar um repositório local e vocÊ fazer as alterações, que quando for aprovada, será feito o merge para colocar essas auterações na branch main.
 
-### O que é pull request?
+### O que é pull request(requisição de pull)?
 - Uma pull request é uma proposta para mesclar as alterações de um branch em outro. Em uma pull request, os colaboradores podem revisar e discutir o conjunto de alterações proposto antes de integrá-las à base de código principal.
+
+### Code Review (Revisão de Código)
+- É um processo essencial no desenvolvimento de software, onde um ou mais colegas de equipe revisam o código-fonte escrito por outro desenvolvedor que mandou o pull request.
