@@ -109,7 +109,7 @@ git commit  -m "Aqui vc coloca a mensagem falando o que foi alterado"
   
 > Curiosidade :  A ideia do funcionamento da Chave SSH envolve ideias que vemos em teoria dos números. Matemática é útil!!!
 
-> 1. P> Aqui vamos mostrar na prática a criação de uma chave SSH
+> 1. Aqui vamos mostrar na prática a criação de uma chave SSH
 > 2. ....
 > 3. ....
 > 4. ....
@@ -120,18 +120,37 @@ git commit  -m "Aqui vc coloca a mensagem falando o que foi alterado"
 
 ### Qual a diferença entre subir um projeto e clonar um projeto
 #### Clonar o projeto ou parte do projeto
-- Esse é o processo que geralmente se faz quando se chega em uma empresa , clonamos parte do projeto ou o projeto inteiro para se trabalhar nele.
-### Comando 
+- Esse é o processo que geralmente se faz quando se chega em uma empresa , Criamos uma cópia de parte do projeto ou do projeto inteiro para se trabalhar nele.
+
+##### Comando 
 - git clone <link da chave ssh>
 
 #### Subir um projeto 
-- Quando criamos o projeto no repositório local/no computador e subimos para o gitHub
-### Comando
+- Quando criamos o projeto no repositório local/no computador e subimos para o gitHub.
+
+> Passo a passo
+
+>1. Criar um repositório remoto vazio
+>2. Passo a passo no doc do github
+>3. ...
+
+## Subindo Auterações
 - Com o git push (empurrar) você consegue subir alterações do seu computador para o Github.
 
 ## Baixando alterações com Git pull
 - Com o git pull(puxar) você consgue baixar alterações que podem ter acontecido no projeto, para que você trabalhe com o projeto atualizado.
 - Este comando incorpora as alterações de um repositório remoto para o repositório local.
+
+
+> Hora de mostrar na prática utilizando bloco de notas
+
+> Criar no repositório vazio que criamos um doc coom o nome primeiro_doc
+
+> e escrevemos uma modificação nele, fazemos os commits e o push na prática
+
+> Depois podemos fazer uma modificação direto no github , fazemos git status para ver o estado atual
+
+> Depois fazemos o git pull  
 
 
 
