@@ -51,7 +51,6 @@
 
 ## Como Trabalhar com o git?
 
-
 ### Vamos entender alguns conceitos 
 
 - Repositório : É onde o código será armazenado, geralmente é associado a um projeto.
@@ -65,20 +64,28 @@ Dentro do gitHub podemos ter repositórios abertos, onde outras pessoas podem vi
 ## Criando meu primeiro Repositório Git
 - Abrir o Git bash e ir até dentro da pasta onde está o projeto
 - digitar o comando git init para inicializar o git no local dentro da pasta.
+> Explicar que quando se utiliza deste comando é criada uma pasta oculta chamada ".git", que vai  ter as configurações necessárias para o monitoramento do git naquele diretório.
+
+> criar arquivo no boco de notas e salvar no diretório
+> utilizar o git status e explicar que ele serve basicamente para saber o estado atual do diretório em relação ao git, como quais arquivos estão sendo trackeados ou quais foram modificados.
+> explicar o que é o git add . e o git add <nome do arquivo> : que é quando adicionamos uma ou mais mudanças que será confirmada com o próximo commit feito.
+> Expicar o que é o git commit -m "mensagem" : quando salvamos aquela modifição, se não for feito o commit podemos perder todas as modificações que fizemos.
+> Aqui podemos falar sobre a brincadeira que fazem sobre nunca esquecer de fazer o commit , um meme por exemplo.
 
 ## Comandos do git
-### git commit
 
+### git commit
 - O commit registra alterações em um ou mais arquivos  na sua branch.
 
-git commit  -m "Aqui vc coloca a mensagem falando o que foi auterado" 
+git commit  -m "Aqui vc coloca a mensagem falando o que foi alterado" 
+
 - Quando fazemos o commit, criamos uma nova versão do código e caso queiramos voltar atrás das modificações é possível, pois o o arquivo está sendo rastreado pelo git.
 
 - Nunca esqueça de commitarrrrrr!!!
 
 ### git add
 
-- O git add adiciona uma mudança qualquer, seja ela auterar ou remover um conteúdo de um arquivo local , que terá a sua mudança confirmada através do commit.
+- O git add adiciona uma mudança qualquer, seja ela alterar ou remover um conteúdo de um arquivo local , que terá a sua mudança confirmada através do commit.
 
 ### git status 
 
@@ -86,21 +93,22 @@ git commit  -m "Aqui vc coloca a mensagem falando o que foi auterado"
 - o que é stanging? é onde adicionamento os arquivos para a árvore do git.
 - O git status nos permite ver quais alterações foram despreparadas , quais não foram e quais arquivos estão sendo monitorados(tracked) pelo git.
 
-### git push
 
-- Permite que enviemos os commits da nossa banch e repositório git local para o repositório remoto.
-- obs.: Antes de fazer o push , temos que verificar se todas as alterações no repositório local foram feitas.
-
-#### O que é o Github?
+## O que é o Github?
 - O GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores e usuários cadastrados contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo. O GitHub é utilizado para gerir projetos, permitindo a colaboração entre uma grande comunidade de desenvolvedores
 
-###### Configurando chave SSH
+### O que é a chave SSH
 - O secure Shell Protocoll é um protocolo de rede criptográfica para operar serviços de rede com segurança em uma rede não segura.
+- Na prática quando vc estiver utiizando a chave, sempre que vc for fazer comandos que transfiram dados entre os repositórios remoto e local, a senha que você criou para sua chave será soicitada.
+#### Qual a finalidade da chave SSH?
+- Têm a função de criptografar o tráfego entre servidor e cliente. Na prática, isso quer dizer que se alguém resolver espionar esse tráfego, não conseguirá descriptografar os dados de modo apropriado.
+  
+> Curiosidade :  A ideia do funcionamento da Chave SSH envolve ideias que vemos em teoria dos números. Matemática é útil!!!
 
-- 1. abra o gitbaash
-  2. ....
-  3. ....
-  4. ....
+> 1. P> Aqui vamos mostrar na prática a criação de uma chave SSH
+> 2. ....
+> 3. ....
+> 4. ....
  
 
 
@@ -120,6 +128,7 @@ git commit  -m "Aqui vc coloca a mensagem falando o que foi auterado"
 ## Baixando alterações com Git pull
 - Com o git pull(puxar) você consgue baixar alterações que podem ter acontecido no projeto, para que você trabalhe com o projeto atualizado.
 - Este comando incorpora as alterações de um repositório remoto para o repositório local.
+
 
 
 ## Sincronizar projeto com o GitHub 
