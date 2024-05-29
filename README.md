@@ -4,8 +4,13 @@
 
 ## O que é controle de versão/fonte?
 
+> Explicar o que é o controle de versão
 - É uma prática de rastrear e gerenciar as auterações em um código de um software. Os sistemas de controle de versão são ferramentas que permitem rastrear as auterações no código ao longo do tempo e por desenvolvedores diferentes.
+
+> Explicar para que ele surgiu 
 - Com a evolução de softwares que se tornam cada vez mais complexos, os sistemas de versionamento permite que desenvolvedores de diferentes locais, possam acessar e modificar os códigos de um mesmo projeto.
+
+> Explicar com um exemplo prático de uso como o projeto do Facebook
 - Além disso, se você tem um projeto grande, tipo o Facebook, que tem inúmeras funcionalidades, podemos criar ramos para desenvolver alguma ideia que temos, como a criação de um chat para o facebook, evitando interrupções de outros desenvolvedores que estão implementando outras funcionalidades e de corromper todo o projeto por erros na criação do chat, por exemplo.
 
 ## Tipos de controle de versão
