@@ -14,12 +14,24 @@
 - Além disso, se você tem um projeto grande, tipo o Facebook, que tem inúmeras funcionalidades, podemos criar ramos para desenvolver alguma ideia que temos, como a criação de um chat para o facebook, evitando interrupções de outros desenvolvedores que estão implementando outras funcionalidades e de corromper todo o projeto por erros na criação do chat, por exemplo.
 
 ## Tipos de controle de versão
+> Explicar os tipos de controle de versão e como ele funcionam
 ### Centralizado
-- É um modelo baseado em cliente-servidor, ou seja, as máquinas da equipe do projeto precisam estar conectadas a um servidor central que contém o sistema de controle de versão com os arquivos versionados do projeto
+- É um modelo baseado em cliente-servidor, ou seja, as máquinas da equipe do projeto precisam estar conectadas a um servidor central que contém o sistema de controle de versão com os arquivos versionados do projeto.
+
+- Só possui um repositório que é o que está no servidor
+
+- Apenas um servidor principal tem uma cópia local para cada contriibuidor. Logo, a única forma de comunicação delas é peo servidor principal.
+
+- Caso o sevidor central fique fora do ar, não será possível trabalhar com o seu time ou gerar novas versões . 
 -  ![centralizado](https://github.com/ana112358/Curso-de-git/assets/130050929/2648a775-6381-4afe-8654-720a35319ac4)
 
+> Explicar mostrando a ideia da imagem também 
+
 ###  Descentralizado/distribuído
--
+
+- Não depende de um servidor central, isso significa que o desenvolvedor terá um repositório na área de trabalho com toda a base de dados , podendo percorrer outros banches, gerar ou reverter versões do código-fonte, trabalhar em versões de teste etc.
+
+- Devido a essa liverdade do controle descentralizado, é necessário um controle para com os contribuidores, a fim de evitar a quebra da aplicação ou a sua possíve exclusão.
 
 
 ## O que é GIT ?
