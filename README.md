@@ -189,5 +189,7 @@ git commit  -m "Aqui vc coloca a mensagem falando o que foi alterado"
 - É um processo essencial no desenvolvimento de software, onde um ou mais colegas de equipe revisam o código-fonte escrito por outro desenvolvedor que mandou o pull request.
 
   > Nessa parte precisamos ter duas contas logadas para simular o code review e o outro o desenvolvedor que vai fazer um pull request.
-  > Precisamos mostrar como funciona os comentários e a solicitação de revisão de código
+  
+  > Precisamos mostrar como funciona os comentários e a solicitação de revisão de código.
+  
   > Por fim, a aprovação e o marge peo code review
