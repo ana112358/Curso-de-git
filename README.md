@@ -137,6 +137,7 @@ git commit  -m "Aqui vc coloca a mensagem falando o que foi alterado"
 ## Subindo Auterações
 - Com o git push (empurrar) você consegue subir alterações do seu computador para o Github.
 
+# Sincronizar projeto com o GitHub 
 ## Baixando alterações com Git pull
 - Com o git pull(puxar) você consgue baixar alterações que podem ter acontecido no projeto, para que você trabalhe com o projeto atualizado.
 - Este comando incorpora as alterações de um repositório remoto para o repositório local.
@@ -152,10 +153,6 @@ git commit  -m "Aqui vc coloca a mensagem falando o que foi alterado"
 
 > Depois fazemos o git pull  
 
-
-
-## Sincronizar projeto com o GitHub 
-.........
 
 ## Trabalhando com branch
 
