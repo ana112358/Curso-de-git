@@ -23,7 +23,8 @@
 - Apenas um servidor principal tem uma cópia local para cada contriibuidor. Logo, a única forma de comunicação delas é peo servidor principal.
 
 - Caso o sevidor central fique fora do ar, não será possível trabalhar com o seu time ou gerar novas versões . 
--  ![centralizado](https://github.com/ana112358/Curso-de-git/assets/130050929/2648a775-6381-4afe-8654-720a35319ac4)
+
+![18333fig0102-tn](https://github.com/ana112358/Curso-de-git/assets/130050929/2456af85-2c5c-4ba3-a538-8175a3e0d049)
 
 > Explicar mostrando a ideia da imagem também 
 
@@ -32,6 +33,10 @@
 - Não depende de um servidor central, isso significa que o desenvolvedor terá um repositório na área de trabalho com toda a base de dados , podendo percorrer outros banches, gerar ou reverter versões do código-fonte, trabalhar em versões de teste etc.
 
 - Devido a essa liverdade do controle descentralizado, é necessário um controle para com os contribuidores, a fim de evitar a quebra da aplicação ou a sua possíve exclusão.
+  
+![18333fig0103-tn](https://github.com/ana112358/Curso-de-git/assets/130050929/5546a560-a425-4c49-9fb7-dbf80cb5a0c8)
+
+> Eplicar mostrando a ideia da imagem
 
 
 ## O que é GIT ?
