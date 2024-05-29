@@ -66,10 +66,14 @@ Dentro do gitHub podemos ter repositórios abertos, onde outras pessoas podem vi
 - digitar o comando git init para inicializar o git no local dentro da pasta.
 > Explicar que quando se utiliza deste comando é criada uma pasta oculta chamada ".git", que vai  ter as configurações necessárias para o monitoramento do git naquele diretório.
 
-> criar arquivo no boco de notas e salvar no diretório
+> criar arquivo no boco de notas e salvar no diretório.
+ 
 > utilizar o git status e explicar que ele serve basicamente para saber o estado atual do diretório em relação ao git, como quais arquivos estão sendo trackeados ou quais foram modificados.
+
 > explicar o que é o git add . e o git add <nome do arquivo> : que é quando adicionamos uma ou mais mudanças que será confirmada com o próximo commit feito.
+
 > Expicar o que é o git commit -m "mensagem" : quando salvamos aquela modifição, se não for feito o commit podemos perder todas as modificações que fizemos.
+
 > Aqui podemos falar sobre a brincadeira que fazem sobre nunca esquecer de fazer o commit , um meme por exemplo.
 
 ## Comandos do git
