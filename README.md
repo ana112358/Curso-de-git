@@ -178,18 +178,35 @@ git commit  -m "Aqui vc coloca a mensagem falando o que foi alterado"
 
 > obs.: Quando se entra em uma empresa, geralmente já existe um repositório. Temos que fazer o git clone para criar um repositório local e você fazer as alterações, que quando forem aprovadas, será feito o merge para colocar essas auterações na branch main.
 
+> Antes de mostrar na prática mesmo, acho que seria interessante mostrar pelo simulador do site <https://learngitbranching.js.org/>
+
+> Dar um tempo para o pessoal treinar (10 min)
+
 > Mostrar na prática a criação /  troca de branch / como ver todas as branchs
 
 ### O que é pull request(requisição de pull)?
 - Uma pull request é uma proposta para mesclar as alterações de um branch em outro. Em uma pull request, os colaboradores podem revisar e discutir o conjunto de alterações proposto antes de integrá-las à base de código principal.
 
 - É a partir da Branch main que fazemos o Pull Request.
+- 
+## Como proteger uma branch
 
-### Code Review (Revisão de Código)
+> Mostrar na prática como funciona a proteção de uma branch através de uma conta criada e um novo repositório
+
+> como convidar colaboradores e as opções que aparecem na tela
+> 
+### Code Review (Revisão de Código) - Como é feito?
 - É um processo essencial no desenvolvimento de software, onde um ou mais colegas de equipe revisam o código-fonte escrito por outro desenvolvedor que mandou o pull request.
 
   > Nessa parte precisamos ter duas contas logadas para simular o code review e o outro o desenvolvedor que vai fazer um pull request.
   
   > Precisamos mostrar como funciona os comentários e a solicitação de revisão de código.
   
-  > Por fim, a aprovação e o marge peo code review
+  > Por fim, a aprovação e o marge pelo code review
+
+
+
+
+
+
+
