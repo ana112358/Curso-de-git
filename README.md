@@ -205,6 +205,9 @@ git commit  -m "Aqui vc coloca a mensagem falando o que foi alterado"
   > Por fim, a aprovação e o marge pelo code review
 
 
+  ## O que É o Fork?
+
+  - Quando pegamos projetos já existentes e praticamente garfamos 
 
 
 
