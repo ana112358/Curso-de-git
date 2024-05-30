@@ -214,5 +214,15 @@ git commit  -m "Aqui vc coloca a mensagem falando o que foi alterado"
 
 
 
+## Comando git log
+
+- É um comando feito para exibir os históricos de commits do projeto.
+
+- Aparece nome, hora, data e a mensagem relacionada a cada commit.
+
+> Seta para baixo e seta para cima
+
+> Digitar Q sai do histórico
+
 
 
