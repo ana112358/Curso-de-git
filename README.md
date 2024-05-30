@@ -1,4 +1,4 @@
-# Resumo sobre o git
+# Resumo(sugestão de roteiro para minicurso) sobre o git 
 
 - Repositório para aprender a utilizar o git e o GitHub. Curso da Udemy com o professor Jamilton Damasceno . 
 
@@ -194,7 +194,8 @@ git commit  -m "Aqui vc coloca a mensagem falando o que foi alterado"
 > Mostrar na prática como funciona a proteção de uma branch através de uma conta criada e um novo repositório
 
 > como convidar colaboradores e as opções que aparecem na tela
-> 
+
+
 ### Code Review (Revisão de Código) - Como é feito?
 - É um processo essencial no desenvolvimento de software, onde um ou mais colegas de equipe revisam o código-fonte escrito por outro desenvolvedor que mandou o pull request.
 
@@ -207,7 +208,9 @@ git commit  -m "Aqui vc coloca a mensagem falando o que foi alterado"
 
   ## O que É o Fork?
 
-  - Quando pegamos projetos já existentes e praticamente garfamos 
+  - Quando pegamos projetos já existentes e praticamente garfamos.
+
+  > Poderiamos fazer um repositório e fazer como exercício cada pessoa fazer um fork e acrescentar o seu nome no projeto que seria apenas um doc feito no bloco de notas.
 
 
 
