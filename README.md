@@ -224,5 +224,17 @@ git commit  -m "Aqui vc coloca a mensagem falando o que foi alterado"
 
 > Digitar Q sai do histórico
 
+### git log --oneline
+- Este comando irá nos mostrar o histórico de gorma mais compactada e eficiente.
+- Hash e mensagem do commit
+> Mostrar o print do formato e explicar cada parte
 
+![3](https://github.com/ana112358/Curso-de-git/assets/130050929/fc043214-bac5-43d2-ba23-60dd68cc5d9c)
+
+## Como reverter um commit ??
+
+### comando git revert
+- Este comando cria um commit que desfaz todas as modificações do commit que você corrigir.
+- comando : "git commit HEAD~3"
+- Neste exemplo os últimos 3 commits serão revertidos, ou seja, o git criará um novo commit que vai desfazer as modificações realizadas pelos 3 últimos commits da branch atual.
 
