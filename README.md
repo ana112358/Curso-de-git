@@ -248,3 +248,14 @@ git commit  -m "Aqui vc coloca a mensagem falando o que foi alterado"
 
 ### git reset <\arquivo>
 - Tira o arquivo do estado "mudanças a serem commitadas"(standing area), podendo ser adicionado novamente.
+
+### git reset --hard <\commit>
+- Reseta um commit especificado, removendo de forma definitiva arquivos do commit indicado para frente(não seguro).
+> É possível reverter, mas o processo é complicado.
+
+### git reset --mixed <\commit> (padrão)
+- Reseta para um commit especificado, mantendo os arquivos no seu diretório e você decideo que fazer com os arquivos, podendo fazer commit novamente ou remover de forma definitiva(seguro).
+- Ele na verdade tira as auterações do repositório git, para que vc decida adicionar ou não.
+
+### git reset --soft <\commit>
+- Reseta para um commit especificado, mantendo os arquivos no estado "Stanging" prontos para fazer commit(seguro)
