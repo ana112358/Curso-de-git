@@ -244,3 +244,5 @@ git commit  -m "Aqui vc coloca a mensagem falando o que foi alterado"
 ### git reset HEAD
 - Descarta alterações pendentes de commit, voltando os arquivos para serem adicionados ao "git add"
 
+### git reset <arquivo>
+- Tira o arquivo do estado "mudanças a serem commitadas"(standing area), podendo ser adicionado novamente.
