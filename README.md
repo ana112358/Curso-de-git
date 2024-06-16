@@ -238,11 +238,13 @@ git commit  -m "Aqui vc coloca a mensagem falando o que foi alterado"
 - comando : "git commit HEAD~3"
 - Neste exemplo os últimos 3 commits serão revertidos, ou seja, o git criará um novo commit que vai desfazer as modificações realizadas pelos 3 últimos commits da branch atual.
 
+## Como resetar um commit
+
 ### comando git reset
 - Em alguma situações precisaremos resetar alterações que foram salvas de forma definitiva no histórico, ou seja, as que foram commitada.
 
 ### git reset HEAD
 - Descarta alterações pendentes de commit, voltando os arquivos para serem adicionados ao "git add"
 
-### git reset <arquivo>
+### git reset <\arquivo>
 - Tira o arquivo do estado "mudanças a serem commitadas"(standing area), podendo ser adicionado novamente.
