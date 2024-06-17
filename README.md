@@ -259,3 +259,17 @@ git commit  -m "Aqui vc coloca a mensagem falando o que foi alterado"
 
 ### git reset --soft <\commit>
 - Reseta para um commit especificado, mantendo os arquivos no estado "Stanging" prontos para fazer commit(seguro)
+
+## git stash
+- Este comando é como se fosse um rascunho , onde criamos vários versões, sem colocar no histórico, pois não foi commitada.
+### git stash push -m "mensagem"
+- adiciona uma descrisçãoa stash
+
+### git stash list
+- Lista as auterações que foram salvas na stash
+
+### git stash -p <\número da stash>
+- Exibe o que foi modificado na stash
+
+### git stash apply <\número>
+- Recupera uma stash pelo número.
